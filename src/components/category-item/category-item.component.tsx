@@ -1,6 +1,7 @@
 import './category-item.styles.scss';
 interface CategoryItemProps {
 	category: {
+		id: number;
 		imageUrl: string;
 		title: string;
 	}
