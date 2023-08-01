@@ -1,15 +1,17 @@
 import './category-item.styles.scss';
+import { Category } from '../../types/types';
+
+// Define the props that the component will receive
 interface CategoryItemProps {
-	category: {
-		id: number;
-		imageUrl: string;
-		title: string;
-	}
+	category: Category;
 }
 
+// Define the CategoryItem component
 const CategoryItem = ({ category }: CategoryItemProps) => {
+	// Destructure the imageUrl and title from the category prop
 	const { imageUrl, title } = category;
 	return (
+		// Render the component
 		<div className='category-container'>
 			<div
 				className='background-image'
@@ -25,4 +27,5 @@ const CategoryItem = ({ category }: CategoryItemProps) => {
 	);
 };
 
+// Export the CategoryItem component as the default export
 export default CategoryItem;
