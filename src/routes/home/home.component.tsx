@@ -9,34 +9,34 @@ const Home = () => {
 		{
 			id: 1,
 			title: 'hats',
-			imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+			imageUrl: 'https://i.ibb.co/K73JQvT/dog-1.jpg',
 		},
 		{
 			id: 2,
 			title: 'jackets',
-			imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+			imageUrl: 'https://i.ibb.co/7Y36S1m/dog-2.jpg',
 		},
 		{
 			id: 3,
 			title: 'sneakers',
-			imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+			imageUrl: 'https://i.ibb.co/nrLMXH8/dog-3.jpg',
 		},
 		{
 			id: 4,
 			title: 'womens',
-			imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+			imageUrl: 'https://i.ibb.co/2gcv6DM/dog-4.jpg',
 		},
 		{
 			id: 5,
 			title: 'mens',
-			imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+			imageUrl: 'https://i.ibb.co/pyYkCXD/dog-5.jpg',
 		},
 	];
 
 	return (
 		<div>
 			<Directory categories={categories} />
-			<Outlet /> // ts error on outlet
+			<Outlet />
 		</div>
 	)
 };

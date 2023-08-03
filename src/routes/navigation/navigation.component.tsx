@@ -1,8 +1,7 @@
 // @ts-nocheck // todo: remove this line when TS error is fixed
 import { Fragment } from 'react';
 import { Outlet, Link } from 'react-router-dom';
-
-import { ReactComponent as CrwnLogo } from '../../assets/crown.svg';
+import DogLogo from '../../assets/apollo-artemis-logo.png'
 
 import './navigation.styles.scss';
 
@@ -11,7 +10,9 @@ const Navigation = () => {
 		<Fragment>
 			<div className='navigation'>
 				<Link className='logo-container' to='/'>
-					<CrwnLogo className='logo' />
+					<div>
+						<img src={DogLogo} alt="My Logo" style={{ width: '200px' }} />
+					</div>
 				</Link>
 				<div className='nav-links-container'>
 					<Link className='nav-link' to='/shop'>

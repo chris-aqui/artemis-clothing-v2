@@ -20,8 +20,8 @@ const CategoryItem = ({ category }: CategoryItemProps) => {
 				}}
 			/>
 			<div className='category-body-container'>
-				<h2>{title}</h2>
-				<p>Shop Now</p>
+				<h2>Shop {title} Now</h2>
+				{/* <p>Shop Now</p> */}
 			</div>
 		</div>
 	);

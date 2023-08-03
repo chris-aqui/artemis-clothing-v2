@@ -18,7 +18,7 @@
 		}
 
 		& .category-body-container {
-			opacity: 0.9;
+			opacity: 0.5;
 		}
 	}
 
@@ -52,6 +52,7 @@
 		background-color: white;
 		opacity: 0.7;
 		position: absolute;
+		border-radius: 25px;
 
 		h2 {
 			font-weight: bold;
