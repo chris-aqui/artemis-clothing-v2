@@ -1,9 +1,9 @@
 // @ts-nocheck // todo: remove this line when TS error is fixed
-import './button.styles.scss';
+import "./button.styles.scss";
 
-const BUTTON_TYPE_CLASSES = {
-	google: 'google-sign-in',
-	inverted: 'inverted',
+export const BUTTON_TYPE_CLASSES = {
+	google: "google-sign-in",
+	inverted: "inverted",
 };
 
 const Button = ({ children, buttonType, ...otherProps }) => {
