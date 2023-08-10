@@ -1,14 +1,21 @@
 // @ts-nocheck // todo: remove this line when TS error is fixed
-import { Fragment } from 'react';
-import { Outlet, Link } from 'react-router-dom';
+import { useContext } from 'react';
+
+import { ProductsContext } from '../../contexts/products.context';
+import ProductCard from '../../components/product-card/product-card.component';
+
+import './shop.styles.scss';
 
 const Shop = () => {
+	const { products } = useContext(ProductsContext);
+
 	return (
-		<Fragment>
-			<div>I am a shop</div>
-			<Outlet />
-		</Fragment>
-	)
+		<div className='products-container'>
+			{products.map((product) => (
+				<ProductCard key={product.id} product={product} />
+			))}
+		</div>
+	);
 };
 
 export default Shop;

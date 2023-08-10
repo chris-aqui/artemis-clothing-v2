@@ -1,0 +1,62 @@
+[
+	{
+		"id": 1,
+		"name": "Woven Beanie",
+		"imageUrl": "https://i.ibb.co/TL8Bd3f/artlab-greyhound-wearing-a-knitted-hat-f17d88f4-a611-41e3-b772-fa94b1eaa4fb.png",
+		"price": 25
+	},
+	{
+		"id": 2,
+		"name": "Fancy Hat",
+		"imageUrl": "https://i.ibb.co/J5b3Dg1/Digital-Seals-a-german-sheperd-dog-wears-a-hat-with-a-mosquito-p-aa2579ae-75cb-4a14-9e31-3c28f931fc5.png",
+		"price": 18
+	},
+	{
+		"id": 3,
+		"name": "Terquoise Hat",
+		"imageUrl": "https://i.ibb.co/Jmc0Ykg/dudag-cute-black-Cavalier-King-Charles-Spaniel-dog-smiling-wi-2ac44ec7-709c-48b2-8f52-83fae63c45c2.png",
+		"price": 35
+	},
+	{
+		"id": 4,
+		"name": "Autumn Beanie",
+		"imageUrl": "https://i.ibb.co/Nykq4p2/himahiro-Shiba-Inucutewear-a-knit-hat-dc48aab6-6321-469f-a9a4-9e775f9caea6.png",
+		"price": 25
+	},
+	{
+		"id": 5,
+		"name": "Teal Beanie",
+		"imageUrl": "https://i.ibb.co/Vtkhs9j/Jihad-a-dog-wearing-a-beanie-20e712d2-613c-4a46-92c5-badd3c99d1ab.png",
+		"price": 18
+	},
+	{
+		"id": 6,
+		"name": "Puppy hat",
+		"imageUrl": "https://i.ibb.co/CWxqMXV/lcs598107869-the-baby-puppy-is-wearing-a-Fedora-hat-8b9ca463-f132-4709-8621-5ed31de4cfb9.png",
+		"price": 14
+	},
+	{
+		"id": 7,
+		"name": "Cowboy hat",
+		"imageUrl": "https://i.ibb.co/5BpJDzr/llr-A-dog-dressed-as-Crocodile-Dundee-in-Aussie-hat-Various-po-cf870146-a655-4388-ab67-62fecf9e38e9.png",
+		"price": 18
+	},
+	{
+		"id": 8,
+		"name": "Wolf Cap",
+		"imageUrl": "https://i.ibb.co/tXY47Gq/Misogi-cutest-dog-wearing-a-hat-that-girls-loves-cinematic-qual-8c6df786-6c89-4373-a42e-3d2808b41282.png",
+		"price": 14
+	},
+	{
+		"id": 9,
+		"name": "Gray Brim",
+		"imageUrl": "https://i.ibb.co/3rFPYTV/renatoaugbezerra-a-happy-dog-hat-on-a-color-background-6268fe51-72d1-45e0-8b01-4b8e386b999c.png",
+		"price": 16
+	},
+	{
+		"id": 9,
+		"name": "Aussie Beanie",
+		"imageUrl": "https://i.ibb.co/j36qbZ4/tme-photo-of-a-dog-wearing-a-beanie-b70cb48e-e27a-478f-8a51-1f7c27cb82ba.png",
+		"price": 16
+	}
+]
